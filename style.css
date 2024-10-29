@@ -1,0 +1,98 @@
+header {
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+}
+nav	ul li{
+    font-size: large;
+    display: inline;
+    margin-right: 5px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#Encuesta {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #3b5df7;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+fieldset {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f78504; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px 0;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="reset"]:hover{
+    background-color: brown;
+} 
+footer {
+    width: 100%;
+    background-color: #5e3700; /* Ajusta al color oscuro del footer */
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+}
